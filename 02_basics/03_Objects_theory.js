@@ -22,7 +22,8 @@ JavaScript
       age: 30
     };
     
-Object() Constructor: Using the new Object() syntax.
+Object() Constructor: Using the new Object() syntax.  this type of object creation in Singleton
+A singleton object in JavaScript refers to an instance of a class or an object that is restricted to having only one instance throughout the entire application's lifetime. 
 JavaScript
 
     const car = new Object();
