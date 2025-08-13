@@ -1,5 +1,6 @@
 /* 
 All higher order loops are Array specific loops 
+for of is for array map but not for maps 
 */
 
 //Syntax of for of
@@ -41,3 +42,5 @@ map.set('Uk','United Kingdom')
 for (const [key,values] of map){
     console.log(`Key-values are :- ${key} and ${values}`);    
 }
+
+
