@@ -3,7 +3,7 @@ const names = ['Anubhav','Om','Arpit','Aman']
 
  //
 names.forEach( (items)=>{
-    console.log(items);
+    // console.log(items);
     
 })
  // its is very common ki object of array aaye ab usme se value acces krna to forEach is best for that
@@ -16,6 +16,14 @@ const express = [{
 }]
 
 express.forEach( (val)=>{
-    console.log(val.CC);
+    // console.log(val.CC);
+    
+})
+
+
+const numbers = [1,2,3,4,5,6]
+
+numbers.forEach( (item)=>{if(item>=4)
+    console.log(item);
     
 })
